@@ -1,12 +1,31 @@
 package com.alexgordeev.spring.mvc;
 
+import java.util.HashMap;
+import java.util.Map;
+import java.util.TreeMap;
+
 public class Employee {
     private String name;
     private String surname;
     private int salary;
     private String department;
+    private Map<String,String> departments;
+    private String laptopBrand;
+    private Map<String,String> laptopBrands;
+
 
     public Employee() {
+        departments = new HashMap<>();
+        departments.put("IT","Information Technology");
+        departments.put("HR","Human Resources");
+        departments.put("Sales","Sales");
+
+        laptopBrands = new TreeMap<>();
+        laptopBrands.put("Apple","Apple");
+        laptopBrands.put("HP","HP");
+        laptopBrands.put("Lenovo","Lenovo");
+
+
     }
 
     public String getName() {
@@ -39,6 +58,30 @@ public class Employee {
 
     public void setDepartment(String department) {
         this.department = department;
+    }
+
+    public Map<String, String> getDepartments() {
+        return departments;
+    }
+
+    public void setDepartments(Map<String, String> departments) {
+        this.departments = departments;
+    }
+
+    public String getLaptopBrand() {
+        return laptopBrand;
+    }
+
+    public void setLaptopBrand(String laptopBrand) {
+        this.laptopBrand = laptopBrand;
+    }
+
+    public Map<String, String> getLaptopBrands() {
+        return laptopBrands;
+    }
+
+    public void setLaptopBrands(Map<String, String> laptopBrands) {
+        this.laptopBrands = laptopBrands;
     }
 
     @Override
