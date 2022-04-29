@@ -12,9 +12,11 @@
 <form:form action="showDetails" modelAttribute="employee">
 
     Name <form:input path="name"/>
+    <form:errors path="name"/>
     <br><br>
 
     Surname <form:input path="surname"/>
+    <form:errors path="surname"/>
     <br><br>
 
     Salary <form:input path="salary"/>
@@ -38,6 +40,13 @@
 <%--    <form:option value="Sales" label="Sales"/>--%>
 <%--    </form:select>--%>
 <%--    <br><br>--%>
+    <br><br>
+    Foreign Language(s)
+<%--    Hardcoded var--%>
+<%--    EN <form:checkbox path="languages" value="English"/>--%>
+<%--    DE <form:checkbox path="languages" value="Deutch"/>--%>
+<%--    FR <form:checkbox path="languages" value="French"/>--%>
+    <form:checkboxes path="languages" items="${employee.languageList}"/>
 
     <br><br>
     <input type="submit" value="OK"/>

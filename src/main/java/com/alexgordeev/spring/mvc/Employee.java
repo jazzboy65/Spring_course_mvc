@@ -1,17 +1,25 @@
 package com.alexgordeev.spring.mvc;
 
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.Size;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.TreeMap;
 
 public class Employee {
+    @Size(min = 2, message = "name must be min 2 symbols")
     private String name;
+//    @NotEmpty(message = "surname is required field")
+    @NotBlank(message = "surname is required field")
     private String surname;
     private int salary;
     private String department;
     private Map<String,String> departments;
     private String laptopBrand;
     private Map<String,String> laptopBrands;
+    private String[] languages;
+    private Map<String,String> languageList;
 
 
     public Employee() {
@@ -25,6 +33,10 @@ public class Employee {
         laptopBrands.put("HP","HP");
         laptopBrands.put("Lenovo","Lenovo");
 
+        languageList = new TreeMap<>();
+        languageList.put("English","EN");
+        languageList.put("Deutch","DE");
+        languageList.put("French","FR");
 
     }
 
@@ -82,6 +94,22 @@ public class Employee {
 
     public void setLaptopBrands(Map<String, String> laptopBrands) {
         this.laptopBrands = laptopBrands;
+    }
+
+    public String[] getLanguages() {
+        return languages;
+    }
+
+    public void setLanguages(String[] languages) {
+        this.languages = languages;
+    }
+
+    public Map<String, String> getLanguageList() {
+        return languageList;
+    }
+
+    public void setLanguageList(Map<String, String> languageList) {
+        this.languageList = languageList;
     }
 
     @Override
