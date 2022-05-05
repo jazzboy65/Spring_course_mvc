@@ -9,9 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3be9d86-4f13-4621-a507-21aafb36b5af" name="Changes" comment="task 9,10">
+    <list default="true" id="e3be9d86-4f13-4621-a507-21aafb36b5af" name="Changes" comment="task 11,12">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alexgordeev/spring/mvc/validation/CheckEmail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alexgordeev/spring/mvc/validation/CheckEmailValidator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/alexgordeev/spring/mvc/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alexgordeev/spring/mvc/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/alexgordeev/spring/mvc/MyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alexgordeev/spring/mvc/MyController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/ask-emp-details-view.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/ask-emp-details-view.jsp" afterDir="false" />
@@ -57,7 +58,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;ignore.preview.features.used&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Alef Computers/Documents/GitHub/Java_Dev_Task1&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Alef Computers/Documents/GitHub/Alishev.lessons&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
@@ -165,8 +166,8 @@
     </configuration>
     <configuration default="true" type="com.poratu.idea.plugins.tomcat" factoryName="SMART_TOMCAT_FACTORY">
       <option name="adminPort" value="8005" />
-      <option name="contextPath" value="" />
-      <option name="docBase" value="" />
+      <option name="contextPath" value="/spring_course_mvc" />
+      <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
       <option name="envOptions" />
       <option name="passParentEnvironmentVariables" value="true" />
       <option name="port" value="8080" />
@@ -228,6 +229,13 @@
       <workItem from="1650887230760" duration="166000" />
       <workItem from="1651172967359" duration="1460000" />
       <workItem from="1651250685791" duration="5489000" />
+      <workItem from="1651263536036" duration="499000" />
+      <workItem from="1651264825783" duration="14000" />
+      <workItem from="1651307388544" duration="79000" />
+      <workItem from="1651307537707" duration="340000" />
+      <workItem from="1651308131917" duration="956000" />
+      <workItem from="1651692320179" duration="2090000" />
+      <workItem from="1651776835576" duration="2057000" />
     </task>
     <task id="LOCAL-00001" summary="task 1">
       <created>1650385917990</created>
@@ -278,7 +286,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650829625644</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="task 11,12">
+      <created>1651263629454</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1651263629454</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -302,7 +317,8 @@
     <MESSAGE value="task 5,6" />
     <MESSAGE value="task 7,8" />
     <MESSAGE value="task 9,10" />
-    <option name="LAST_COMMIT_MESSAGE" value="task 9,10" />
+    <MESSAGE value="task 11,12" />
+    <option name="LAST_COMMIT_MESSAGE" value="task 11,12" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

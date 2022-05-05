@@ -38,16 +38,16 @@ public class MyController {
 //    }
 
 //    @RequestMapping("/showDetails")
-////    public String showEmpDetails(HttpServletRequest request, Model model) {
-////
-////        String empName = request.getParameter("employeeName");
-////        empName = "Mr. " + empName;
-////        model.addAttribute("nameAttribute",empName);
-////
-////        model.addAttribute("description", "- java senior fullstack developer");
-////
-////        return "show-emp-details-view";
-////    }
+//    public String showEmpDetails(HttpServletRequest request, Model model) {
+//
+//        String empName = request.getParameter("employeeName");
+//        empName = "Mr. " + empName;
+//        model.addAttribute("nameAttribute",empName);
+//
+//        model.addAttribute("description", "- java senior fullstack developer");
+//
+//        return "show-emp-details-view";
+//    }
 
     @RequestMapping("/showDetails")
 //    public String showEmpDetails(@RequestParam("employeeName") String empName
